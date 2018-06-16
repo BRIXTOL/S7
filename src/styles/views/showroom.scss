@@ -1,0 +1,51 @@
+.showroom {
+   position: relative;
+
+   &__cover {
+      height: 40vh;
+      display: flex;
+      overflow: hidden;
+      background-size: cover;
+   }
+
+   &__overlay {
+      background-color: rgba(0,0,0,.475);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      height: 40vh;
+      overflow: hidden;
+   }
+
+   &__logo {
+      width: 100%;
+      text-align: center;
+      align-self: center;
+
+      img {
+         width: 180px;
+         height: auto;
+      }
+   }
+
+   &__information {
+      padding: 35px;
+      z-index: 3;
+
+      .description {
+         font-size: 17px;
+
+         h1 {
+            font-size: 21px;
+            text-transform: uppercase;
+            letter-spacing: .045rem;
+         }
+
+         img {
+            width: 175px;
+         }
+      }
+   }
+}

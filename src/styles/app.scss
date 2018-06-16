@@ -1,0 +1,54 @@
+@import "node_modules/bootstrap/scss/mixins.scss";
+@import "node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "node_modules/bootstrap/scss/utilities/text.scss";
+@import "node_modules/bootstrap/scss/utilities/spacing.scss";
+@import "node_modules/bootstrap/scss/utilities/display.scss";
+@import "layout/navbar.scss";
+
+@import "views/index.scss";
+@import "views/brands.scss";
+@import "views/agents.scss";
+@import "views/showroom.scss";
+
+@import "components/splash-loader.scss";
+@import "components/hero.scss";
+
+html, body{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "proxima-nova", Helvetica, Arial;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.container-fluid {
+  padding: 45px;
+}
+
+.bg-gray {
+  background-color: #e2e2e2;
+}
+
+.overlay {
+   background-color: rgba(0,0,0,.495);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 2;
+}

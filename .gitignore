@@ -1,0 +1,15 @@
+# compiled output
+
+# dependencies
+/node_modules
+/bower_components
+
+# misc
+.sass-cache
+.eslintcache
+npm-debug.log*
+yarn-error.log
+yarn.lock
+
+# mac
+.DS_Store

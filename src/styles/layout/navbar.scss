@@ -1,0 +1,48 @@
+
+$navbar-logo-width:              17px;
+$navbar-spacing:                 12px 45px;
+$navbar-link-color:              #111111;
+$navbar-line-letter-spacing:     .045rem;
+
+$navbar-nav-spacing:             35px;
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+.navbar {
+   padding: $navbar-spacing;
+   box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.10);
+
+   &__logo {
+      max-width: $navbar-logo-width;
+   }
+
+   nav > ul > li {
+      list-style-type: none;
+      display: inline-block;
+      padding-left: $navbar-nav-spacing;
+
+      a {
+         display: block;
+         text-transform: uppercase;
+         text-decoration: none;
+         letter-spacing: $navbar-line-letter-spacing;
+      }
+   }
+}
+
+.navbar__black {
+
+   a {
+      color: $navbar-link-color;
+   }
+
+}
+
+.navbar__white {
+   a,
+   &:visited {
+      color: #ffffff;
+   }
+}
