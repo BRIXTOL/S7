@@ -8,7 +8,8 @@
     "build": "webpack --progress --config webpack.prod.js",
     "production": "git subtree push --prefix dist origin gh-pages",
     "lint:js": "eslint src/ webpack.*.js --cache",
-    "icons": "node ./node_modules/mithril-icon-builder/build.js --output-dir ./src/icons/ --svg-dir ./src/assets/icons"
+    "icons": "node ./node_modules/mithril-icon-builder/build.js --output-dir ./src/icons/ --svg-dir ./src/assets/icons",
+    "upload": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",

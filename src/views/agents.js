@@ -22,7 +22,7 @@ const data = {
          name: 'Johan Lennartson',
          role: 'Sales Agent',
          email: 'johan@sunday-seven.com',
-         phone: '+46 (0) 720 44 75 47'
+         phone: '+46 (0) 721 771 977'
       }
    ]
 }

@@ -31,6 +31,19 @@ yarn icons
 ```
 Creates Icon set by exporting svg icons from `src/assets/icons` to `src/icons` and enables easy import into application.
 
+```
+yarn upload
+```
+Pushes the `dist` directory to the `gh-pages` branch.
+
+
+### Github Pages Branch
+Push `dist` directory to the `gh-pages` branch when updates are made using the `yarn upload` command.
+
+```
+git subtree push --prefix dist origin gh-pages
+```
+
 
 ### Contributions
 This single page application is a custom build for Sunday Seven Agency, thus contributions are handled internally within the company. Developers wanting to see a production ready Mithril.js application in the wild, this repository stands as an example for you. Feel free to use it as your starting point to projects.
