@@ -44,6 +44,12 @@ Push `dist` directory to the `gh-pages` branch when updates are made using the `
 git subtree push --prefix dist origin gh-pages
 ```
 
+> If conflicts occur when pushing to gh-pages branch, delete the remove branch using:
+
+```
+git push origin gh-pages --delete
+```
+
 
 ### Contributions
 This single page application is a custom build for Sunday Seven Agency, thus contributions are handled internally within the company. Developers wanting to see a production ready Mithril.js application in the wild, this repository stands as an example for you. Feel free to use it as your starting point to projects.
