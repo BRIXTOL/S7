@@ -15,7 +15,7 @@ import 'superga-logo.png'
 
 const data = {
     hero: {
-        caption: 'We are multi-brand fashion agency in Stockholm, Sweden. We manage and act on behalf of internationally recognized apparel brands.',
+        caption: 'We are a multi-brand fashion agency in Stockholm, Sweden. We manage and act on behalf of internationally recognized apparel brands.',
         video: {
             webm: 'video/cover.webm',
             mp4: 'video/cover.mp4'
