@@ -8,6 +8,7 @@ import 'cover.ogv'
 
 // IMAGES
 import 'brixtol-textiles-logo.png'
+import 'stutterheim-logo.png'
 import 'havaianas-logo.png'
 import 'teva-logo.png'
 import 'shoe-the-bear-logo.png'
@@ -42,6 +43,13 @@ module.exports = ( /*vnode*/ ) => {
                                 oncreate: m.route.link
                             }, [
                                 m('img[src="images/havaianas-logo.png"]')
+                            ])
+                        ]),
+                        m('.col-10.col-md-2.align-self-center', [
+                            m('a[href="/brands/stutterheim"]', {
+                                oncreate: m.route.link
+                            }, [
+                                m('img[src="images/stutterheim-logo.png"]')
                             ])
                         ]),
                         m('.col-10.col-md-2.align-self-center', [

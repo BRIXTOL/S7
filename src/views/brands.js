@@ -37,6 +37,16 @@ const data = {
       logoBlack: "shoe-the-bear-logo.png",
       description: "Shoe the bear began in 2007 with founders thomas frederiksen and jakob fuglsang fusing street art with canvas sneakers. Today, the brand is a frontrunner for scandinavian fashion footwear. It is sold and showcased by prestigious retailers from iceland to israel over north america to japan."
    }],
+   "stutterheim": [{
+      name: "STUTTERHEIM",
+      website: "//stutterheim.com",
+      instagram: "//www.instagram.com/stutterheim",
+      video: "g122-3EHczk",
+      cover: "stutterheim-cover.jpg",
+      logoWhite: "stutterheim-logo-white.png",
+      logoBlack: "stutterheim-logo.png",
+      description: "Stutterheim came from the small island of Arholma in the Stockholm archipelago, Stutterheim founder Alexander Stutterheim discovered his grandfather’s old raincoat in a barn, shortly after he passed away. This classic fisherman’s raincoat, heavy, durable and timeless, provided the inspiration for the first Stutterheim raincoat, the Arholma, and continues to inform the modern interpretations we produce today."
+   }],
    "teva": [{
       name: "TEVA",
       website: "//www.teva-eu.com",
@@ -87,6 +97,14 @@ module.exports = function(/*vnode*/) {
                                  class: param == "brixtol-textiles" ? "active" : "",
                                  onclick(){
                                     m.route.set('/brands/brixtol-textiles')
+                                 }
+                              })
+                           ]),
+                           m('.col-auto.align-self-center', [
+                              m('img[src="images/stutterheim-logo.png"]', {
+                                 class: param == "stutterheim" ? "active" : "",
+                                 onclick() {
+                                    m.route.set('/brands/stutterheim')
                                  }
                               })
                            ]),
